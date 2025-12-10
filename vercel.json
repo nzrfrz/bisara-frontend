@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { 
+      "source": "/api/(.*)", 
+      "destination": "https://rest-bisara.vercel.app/api/$1" 
+    }
   ]
 }
