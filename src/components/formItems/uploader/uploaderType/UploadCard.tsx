@@ -22,9 +22,9 @@ import {
 
 export const UploadCard: React.FC<IFileUploaderRC> = ({
   cropBeforeUpload,
-  multiple = uploaderConfig.multiUpload as boolean,
+  multiple = uploaderConfig.multiUpload as boolean | any,
   maxCount = uploaderConfig.maximumFileToUpload,
-  fileType = uploaderConfig.allowedFileType as TFileAlias,
+  fileType = uploaderConfig.allowedFileType as TFileAlias | any,
   maxFileSize = uploaderConfig.isUseServerless === false ? undefined : uploaderConfig.serverlessMaxFileSize,
 }) => {
   const { token: { colorError } } = theme.useToken();

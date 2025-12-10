@@ -47,7 +47,7 @@ export const DateTimePickerPropertiesTable = () => {
     <Table
       columns={columns}
       pagination={false}
-      dataSource={dateTimePickerFormPropertiesList}
+      dataSource={dateTimePickerFormPropertiesList as any}
       rowKey={(record) => record.id}
     />
   );
