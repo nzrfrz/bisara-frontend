@@ -14,9 +14,11 @@ import { HomeOutlined } from '@ant-design/icons';
 const { Title } = Typography;
 const { Header, Sider, Content, Footer } = Layout;
 
+const COOKIE = document.cookie;
+
 export const AdminLayout = () => {
-  const COOKIE = document.cookie;
   const navigateTo = useNavigate();
+  console.log(COOKIE);
 
   const {
     openKeys,
@@ -28,10 +30,10 @@ export const AdminLayout = () => {
     handleClickedMenu,
     collapsed, setCollapsed,
   } = useAdminLayout();
-  
+
   const displayBrandText = collapsed === false ? 'flex' : 'none';
 
-  if (!COOKIE) return <Navigate to={"/"} replace />
+  // if (!COOKIE) return <Navigate to={"/"} replace />
 
   return (
     <Layout style={{ height: "100vh" }}>
@@ -75,7 +77,7 @@ export const AdminLayout = () => {
         <Header className={styles.headerNavbar}>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', gap: 16 }}>
             <ThemeToggler />
-            <CustomButton icon={<HomeOutlined />} onClick={() => {navigateTo('/')}}/>
+            <CustomButton icon={<HomeOutlined />} onClick={() => { navigateTo('/') }} />
           </div>
         </Header>
         <Content>
