@@ -41,7 +41,7 @@ export const UploadCard: React.FC<IFileUploaderRC> = ({
     filePreviewData, setFilePreviewData,
     uploadProgressStatus,
     RenderUploaderHint,
-  } = useUploader(multiple = false, fileType = 'image', maxFileSize);
+  } = useUploader(multiple, fileType, maxFileSize);
 
   const uploadButton = (
     <button style={{ border: 0, background: 'none' }} type="button">

@@ -1,5 +1,5 @@
 import { Table, Tag, type TableProps } from "antd";
-import dateTimePickerFormPropertiesList from './DateTimePickerFormPropertiesList.json';
+import dateTimePickerFormPropertiesList from './dateTimePickerFormPropertiesList.json';
 
 export const DateTimePickerPropertiesTable = () => {
   const columns: TableProps<Record<string, any>>['columns'] = [
