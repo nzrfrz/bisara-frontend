@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "property": "key",
+    "description": "Unique identifier for the node, used internally by the TreeSelect component",
+    "type": [
+      "string",
+      "number"
+    ],
+    "default": ""
+  },
+  {
+    "id": "2",
+    "property": "label",
+    "description": "Display text for the node, shown in the TreeSelect dropdown",
+    "type": [
+      "string"
+    ],
+    "default": ""
+  },
+  {
+    "id": "3",
+    "property": "value",
+    "description": "Value associated with the node, used in form submissions and search functionality",
+    "type": [
+      "string"
+    ],
+    "default": ""
+  },
+  {
+    "id": "4",
+    "property": "children",
+    "description": "Nested tree nodes under the current node. Each child node uses the same structure, enabling hierarchical data representation",
+    "type": [
+      "TreeNode[]"
+    ],
+    "default": ""
+  }
+]

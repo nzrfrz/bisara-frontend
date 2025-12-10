@@ -1,0 +1,2002 @@
+[
+  {
+    "key": 1,
+    "label": "+93",
+    "value": "AF-93",
+    "countryFlag": "AF",
+    "slug": "afghanistan-AF-93",
+    "countryName": "Afghanistan"
+  },
+  {
+    "key": 2,
+    "label": "+358",
+    "value": "AX-358",
+    "countryFlag": "AX",
+    "slug": "aland islands-AX-358",
+    "countryName": "Aland Islands"
+  },
+  {
+    "key": 3,
+    "label": "+355",
+    "value": "AL-355",
+    "countryFlag": "AL",
+    "slug": "albania-AL-355",
+    "countryName": "Albania"
+  },
+  {
+    "key": 4,
+    "label": "+213",
+    "value": "DZ-213",
+    "countryFlag": "DZ",
+    "slug": "algeria-DZ-213",
+    "countryName": "Algeria"
+  },
+  {
+    "key": 5,
+    "label": "+1",
+    "value": "AS-1",
+    "countryFlag": "AS",
+    "slug": "american samoa-AS-1",
+    "countryName": "American Samoa"
+  },
+  {
+    "key": 6,
+    "label": "+376",
+    "value": "AD-376",
+    "countryFlag": "AD",
+    "slug": "andorra-AD-376",
+    "countryName": "Andorra"
+  },
+  {
+    "key": 7,
+    "label": "+244",
+    "value": "AO-244",
+    "countryFlag": "AO",
+    "slug": "angola-AO-244",
+    "countryName": "Angola"
+  },
+  {
+    "key": 8,
+    "label": "+1",
+    "value": "AI-1",
+    "countryFlag": "AI",
+    "slug": "anguilla-AI-1",
+    "countryName": "Anguilla"
+  },
+  {
+    "key": 9,
+    "label": "+672",
+    "value": "AQ-672",
+    "countryFlag": "AQ",
+    "slug": "antarctica-AQ-672",
+    "countryName": "Antarctica"
+  },
+  {
+    "key": 10,
+    "label": "+1",
+    "value": "AG-1",
+    "countryFlag": "AG",
+    "slug": "antigua and barbuda-AG-1",
+    "countryName": "Antigua and Barbuda"
+  },
+  {
+    "key": 11,
+    "label": "+54",
+    "value": "AR-54",
+    "countryFlag": "AR",
+    "slug": "argentina-AR-54",
+    "countryName": "Argentina"
+  },
+  {
+    "key": 12,
+    "label": "+374",
+    "value": "AM-374",
+    "countryFlag": "AM",
+    "slug": "armenia-AM-374",
+    "countryName": "Armenia"
+  },
+  {
+    "key": 13,
+    "label": "+297",
+    "value": "AW-297",
+    "countryFlag": "AW",
+    "slug": "aruba-AW-297",
+    "countryName": "Aruba"
+  },
+  {
+    "key": 14,
+    "label": "+61",
+    "value": "AU-61",
+    "countryFlag": "AU",
+    "slug": "australia-AU-61",
+    "countryName": "Australia"
+  },
+  {
+    "key": 15,
+    "label": "+43",
+    "value": "AT-43",
+    "countryFlag": "AT",
+    "slug": "austria-AT-43",
+    "countryName": "Austria"
+  },
+  {
+    "key": 16,
+    "label": "+994",
+    "value": "AZ-994",
+    "countryFlag": "AZ",
+    "slug": "azerbaijan-AZ-994",
+    "countryName": "Azerbaijan"
+  },
+  {
+    "key": 18,
+    "label": "+973",
+    "value": "BH-973",
+    "countryFlag": "BH",
+    "slug": "bahrain-BH-973",
+    "countryName": "Bahrain"
+  },
+  {
+    "key": 19,
+    "label": "+880",
+    "value": "BD-880",
+    "countryFlag": "BD",
+    "slug": "bangladesh-BD-880",
+    "countryName": "Bangladesh"
+  },
+  {
+    "key": 20,
+    "label": "+1",
+    "value": "BB-1",
+    "countryFlag": "BB",
+    "slug": "barbados-BB-1",
+    "countryName": "Barbados"
+  },
+  {
+    "key": 21,
+    "label": "+375",
+    "value": "BY-375",
+    "countryFlag": "BY",
+    "slug": "belarus-BY-375",
+    "countryName": "Belarus"
+  },
+  {
+    "key": 22,
+    "label": "+32",
+    "value": "BE-32",
+    "countryFlag": "BE",
+    "slug": "belgium-BE-32",
+    "countryName": "Belgium"
+  },
+  {
+    "key": 23,
+    "label": "+501",
+    "value": "BZ-501",
+    "countryFlag": "BZ",
+    "slug": "belize-BZ-501",
+    "countryName": "Belize"
+  },
+  {
+    "key": 24,
+    "label": "+229",
+    "value": "BJ-229",
+    "countryFlag": "BJ",
+    "slug": "benin-BJ-229",
+    "countryName": "Benin"
+  },
+  {
+    "key": 25,
+    "label": "+1",
+    "value": "BM-1",
+    "countryFlag": "BM",
+    "slug": "bermuda-BM-1",
+    "countryName": "Bermuda"
+  },
+  {
+    "key": 26,
+    "label": "+975",
+    "value": "BT-975",
+    "countryFlag": "BT",
+    "slug": "bhutan-BT-975",
+    "countryName": "Bhutan"
+  },
+  {
+    "key": 27,
+    "label": "+591",
+    "value": "BO-591",
+    "countryFlag": "BO",
+    "slug": "bolivia-BO-591",
+    "countryName": "Bolivia"
+  },
+  {
+    "key": 155,
+    "label": "+599",
+    "value": "BQ-599",
+    "countryFlag": "BQ",
+    "slug": "bonaire, sint eustatius and saba-BQ-599",
+    "countryName": "Bonaire, Sint Eustatius and Saba"
+  },
+  {
+    "key": 28,
+    "label": "+387",
+    "value": "BA-387",
+    "countryFlag": "BA",
+    "slug": "bosnia and herzegovina-BA-387",
+    "countryName": "Bosnia and Herzegovina"
+  },
+  {
+    "key": 29,
+    "label": "+267",
+    "value": "BW-267",
+    "countryFlag": "BW",
+    "slug": "botswana-BW-267",
+    "countryName": "Botswana"
+  },
+  {
+    "key": 30,
+    "label": "+0055",
+    "value": "BV-0055",
+    "countryFlag": "BV",
+    "slug": "bouvet island-BV-0055",
+    "countryName": "Bouvet Island"
+  },
+  {
+    "key": 31,
+    "label": "+55",
+    "value": "BR-55",
+    "countryFlag": "BR",
+    "slug": "brazil-BR-55",
+    "countryName": "Brazil"
+  },
+  {
+    "key": 32,
+    "label": "+246",
+    "value": "IO-246",
+    "countryFlag": "IO",
+    "slug": "british indian ocean territory-IO-246",
+    "countryName": "British Indian Ocean Territory"
+  },
+  {
+    "key": 33,
+    "label": "+673",
+    "value": "BN-673",
+    "countryFlag": "BN",
+    "slug": "brunei-BN-673",
+    "countryName": "Brunei"
+  },
+  {
+    "key": 34,
+    "label": "+359",
+    "value": "BG-359",
+    "countryFlag": "BG",
+    "slug": "bulgaria-BG-359",
+    "countryName": "Bulgaria"
+  },
+  {
+    "key": 35,
+    "label": "+226",
+    "value": "BF-226",
+    "countryFlag": "BF",
+    "slug": "burkina faso-BF-226",
+    "countryName": "Burkina Faso"
+  },
+  {
+    "key": 36,
+    "label": "+257",
+    "value": "BI-257",
+    "countryFlag": "BI",
+    "slug": "burundi-BI-257",
+    "countryName": "Burundi"
+  },
+  {
+    "key": 37,
+    "label": "+855",
+    "value": "KH-855",
+    "countryFlag": "KH",
+    "slug": "cambodia-KH-855",
+    "countryName": "Cambodia"
+  },
+  {
+    "key": 38,
+    "label": "+237",
+    "value": "CM-237",
+    "countryFlag": "CM",
+    "slug": "cameroon-CM-237",
+    "countryName": "Cameroon"
+  },
+  {
+    "key": 39,
+    "label": "+1",
+    "value": "CA-1",
+    "countryFlag": "CA",
+    "slug": "canada-CA-1",
+    "countryName": "Canada"
+  },
+  {
+    "key": 40,
+    "label": "+238",
+    "value": "CV-238",
+    "countryFlag": "CV",
+    "slug": "cape verde-CV-238",
+    "countryName": "Cape Verde"
+  },
+  {
+    "key": 41,
+    "label": "+1",
+    "value": "KY-1",
+    "countryFlag": "KY",
+    "slug": "cayman islands-KY-1",
+    "countryName": "Cayman Islands"
+  },
+  {
+    "key": 42,
+    "label": "+236",
+    "value": "CF-236",
+    "countryFlag": "CF",
+    "slug": "central african republic-CF-236",
+    "countryName": "Central African Republic"
+  },
+  {
+    "key": 43,
+    "label": "+235",
+    "value": "TD-235",
+    "countryFlag": "TD",
+    "slug": "chad-TD-235",
+    "countryName": "Chad"
+  },
+  {
+    "key": 44,
+    "label": "+56",
+    "value": "CL-56",
+    "countryFlag": "CL",
+    "slug": "chile-CL-56",
+    "countryName": "Chile"
+  },
+  {
+    "key": 45,
+    "label": "+86",
+    "value": "CN-86",
+    "countryFlag": "CN",
+    "slug": "china-CN-86",
+    "countryName": "China"
+  },
+  {
+    "key": 46,
+    "label": "+61",
+    "value": "CX-61",
+    "countryFlag": "CX",
+    "slug": "christmas island-CX-61",
+    "countryName": "Christmas Island"
+  },
+  {
+    "key": 47,
+    "label": "+61",
+    "value": "CC-61",
+    "countryFlag": "CC",
+    "slug": "cocos (keeling) islands-CC-61",
+    "countryName": "Cocos (Keeling) Islands"
+  },
+  {
+    "key": 48,
+    "label": "+57",
+    "value": "CO-57",
+    "countryFlag": "CO",
+    "slug": "colombia-CO-57",
+    "countryName": "Colombia"
+  },
+  {
+    "key": 49,
+    "label": "+269",
+    "value": "KM-269",
+    "countryFlag": "KM",
+    "slug": "comoros-KM-269",
+    "countryName": "Comoros"
+  },
+  {
+    "key": 50,
+    "label": "+242",
+    "value": "CG-242",
+    "countryFlag": "CG",
+    "slug": "congo-CG-242",
+    "countryName": "Congo"
+  },
+  {
+    "key": 52,
+    "label": "+682",
+    "value": "CK-682",
+    "countryFlag": "CK",
+    "slug": "cook islands-CK-682",
+    "countryName": "Cook Islands"
+  },
+  {
+    "key": 53,
+    "label": "+506",
+    "value": "CR-506",
+    "countryFlag": "CR",
+    "slug": "costa rica-CR-506",
+    "countryName": "Costa Rica"
+  },
+  {
+    "key": 54,
+    "label": "+225",
+    "value": "CI-225",
+    "countryFlag": "CI",
+    "slug": "cote d'ivoire (ivory coast)-CI-225",
+    "countryName": "Cote D'Ivoire (Ivory Coast)"
+  },
+  {
+    "key": 55,
+    "label": "+385",
+    "value": "HR-385",
+    "countryFlag": "HR",
+    "slug": "croatia-HR-385",
+    "countryName": "Croatia"
+  },
+  {
+    "key": 56,
+    "label": "+53",
+    "value": "CU-53",
+    "countryFlag": "CU",
+    "slug": "cuba-CU-53",
+    "countryName": "Cuba"
+  },
+  {
+    "key": 249,
+    "label": "+599",
+    "value": "CW-599",
+    "countryFlag": "CW",
+    "slug": "curaçao-CW-599",
+    "countryName": "Curaçao"
+  },
+  {
+    "key": 57,
+    "label": "+357",
+    "value": "CY-357",
+    "countryFlag": "CY",
+    "slug": "cyprus-CY-357",
+    "countryName": "Cyprus"
+  },
+  {
+    "key": 58,
+    "label": "+420",
+    "value": "CZ-420",
+    "countryFlag": "CZ",
+    "slug": "czech republic-CZ-420",
+    "countryName": "Czech Republic"
+  },
+  {
+    "key": 51,
+    "label": "+243",
+    "value": "CD-243",
+    "countryFlag": "CD",
+    "slug": "democratic republic of the congo-CD-243",
+    "countryName": "Democratic Republic of the Congo"
+  },
+  {
+    "key": 59,
+    "label": "+45",
+    "value": "DK-45",
+    "countryFlag": "DK",
+    "slug": "denmark-DK-45",
+    "countryName": "Denmark"
+  },
+  {
+    "key": 60,
+    "label": "+253",
+    "value": "DJ-253",
+    "countryFlag": "DJ",
+    "slug": "djibouti-DJ-253",
+    "countryName": "Djibouti"
+  },
+  {
+    "key": 61,
+    "label": "+1",
+    "value": "DM-1",
+    "countryFlag": "DM",
+    "slug": "dominica-DM-1",
+    "countryName": "Dominica"
+  },
+  {
+    "key": 62,
+    "label": "+1",
+    "value": "DO-1",
+    "countryFlag": "DO",
+    "slug": "dominican republic-DO-1",
+    "countryName": "Dominican Republic"
+  },
+  {
+    "key": 64,
+    "label": "+593",
+    "value": "EC-593",
+    "countryFlag": "EC",
+    "slug": "ecuador-EC-593",
+    "countryName": "Ecuador"
+  },
+  {
+    "key": 65,
+    "label": "+20",
+    "value": "EG-20",
+    "countryFlag": "EG",
+    "slug": "egypt-EG-20",
+    "countryName": "Egypt"
+  },
+  {
+    "key": 66,
+    "label": "+503",
+    "value": "SV-503",
+    "countryFlag": "SV",
+    "slug": "el salvador-SV-503",
+    "countryName": "El Salvador"
+  },
+  {
+    "key": 67,
+    "label": "+240",
+    "value": "GQ-240",
+    "countryFlag": "GQ",
+    "slug": "equatorial guinea-GQ-240",
+    "countryName": "Equatorial Guinea"
+  },
+  {
+    "key": 68,
+    "label": "+291",
+    "value": "ER-291",
+    "countryFlag": "ER",
+    "slug": "eritrea-ER-291",
+    "countryName": "Eritrea"
+  },
+  {
+    "key": 69,
+    "label": "+372",
+    "value": "EE-372",
+    "countryFlag": "EE",
+    "slug": "estonia-EE-372",
+    "countryName": "Estonia"
+  },
+  {
+    "key": 212,
+    "label": "+268",
+    "value": "SZ-268",
+    "countryFlag": "SZ",
+    "slug": "eswatini-SZ-268",
+    "countryName": "Eswatini"
+  },
+  {
+    "key": 70,
+    "label": "+251",
+    "value": "ET-251",
+    "countryFlag": "ET",
+    "slug": "ethiopia-ET-251",
+    "countryName": "Ethiopia"
+  },
+  {
+    "key": 71,
+    "label": "+500",
+    "value": "FK-500",
+    "countryFlag": "FK",
+    "slug": "falkland islands-FK-500",
+    "countryName": "Falkland Islands"
+  },
+  {
+    "key": 72,
+    "label": "+298",
+    "value": "FO-298",
+    "countryFlag": "FO",
+    "slug": "faroe islands-FO-298",
+    "countryName": "Faroe Islands"
+  },
+  {
+    "key": 73,
+    "label": "+679",
+    "value": "FJ-679",
+    "countryFlag": "FJ",
+    "slug": "fiji islands-FJ-679",
+    "countryName": "Fiji Islands"
+  },
+  {
+    "key": 74,
+    "label": "+358",
+    "value": "FI-358",
+    "countryFlag": "FI",
+    "slug": "finland-FI-358",
+    "countryName": "Finland"
+  },
+  {
+    "key": 75,
+    "label": "+33",
+    "value": "FR-33",
+    "countryFlag": "FR",
+    "slug": "france-FR-33",
+    "countryName": "France"
+  },
+  {
+    "key": 76,
+    "label": "+594",
+    "value": "GF-594",
+    "countryFlag": "GF",
+    "slug": "french guiana-GF-594",
+    "countryName": "French Guiana"
+  },
+  {
+    "key": 77,
+    "label": "+689",
+    "value": "PF-689",
+    "countryFlag": "PF",
+    "slug": "french polynesia-PF-689",
+    "countryName": "French Polynesia"
+  },
+  {
+    "key": 78,
+    "label": "+262",
+    "value": "TF-262",
+    "countryFlag": "TF",
+    "slug": "french southern territories-TF-262",
+    "countryName": "French Southern Territories"
+  },
+  {
+    "key": 79,
+    "label": "+241",
+    "value": "GA-241",
+    "countryFlag": "GA",
+    "slug": "gabon-GA-241",
+    "countryName": "Gabon"
+  },
+  {
+    "key": 81,
+    "label": "+995",
+    "value": "GE-995",
+    "countryFlag": "GE",
+    "slug": "georgia-GE-995",
+    "countryName": "Georgia"
+  },
+  {
+    "key": 82,
+    "label": "+49",
+    "value": "DE-49",
+    "countryFlag": "DE",
+    "slug": "germany-DE-49",
+    "countryName": "Germany"
+  },
+  {
+    "key": 83,
+    "label": "+233",
+    "value": "GH-233",
+    "countryFlag": "GH",
+    "slug": "ghana-GH-233",
+    "countryName": "Ghana"
+  },
+  {
+    "key": 84,
+    "label": "+350",
+    "value": "GI-350",
+    "countryFlag": "GI",
+    "slug": "gibraltar-GI-350",
+    "countryName": "Gibraltar"
+  },
+  {
+    "key": 85,
+    "label": "+30",
+    "value": "GR-30",
+    "countryFlag": "GR",
+    "slug": "greece-GR-30",
+    "countryName": "Greece"
+  },
+  {
+    "key": 86,
+    "label": "+299",
+    "value": "GL-299",
+    "countryFlag": "GL",
+    "slug": "greenland-GL-299",
+    "countryName": "Greenland"
+  },
+  {
+    "key": 87,
+    "label": "+1",
+    "value": "GD-1",
+    "countryFlag": "GD",
+    "slug": "grenada-GD-1",
+    "countryName": "Grenada"
+  },
+  {
+    "key": 88,
+    "label": "+590",
+    "value": "GP-590",
+    "countryFlag": "GP",
+    "slug": "guadeloupe-GP-590",
+    "countryName": "Guadeloupe"
+  },
+  {
+    "key": 89,
+    "label": "+1",
+    "value": "GU-1",
+    "countryFlag": "GU",
+    "slug": "guam-GU-1",
+    "countryName": "Guam"
+  },
+  {
+    "key": 90,
+    "label": "+502",
+    "value": "GT-502",
+    "countryFlag": "GT",
+    "slug": "guatemala-GT-502",
+    "countryName": "Guatemala"
+  },
+  {
+    "key": 91,
+    "label": "+44",
+    "value": "GG-44",
+    "countryFlag": "GG",
+    "slug": "guernsey and alderney-GG-44",
+    "countryName": "Guernsey and Alderney"
+  },
+  {
+    "key": 92,
+    "label": "+224",
+    "value": "GN-224",
+    "countryFlag": "GN",
+    "slug": "guinea-GN-224",
+    "countryName": "Guinea"
+  },
+  {
+    "key": 93,
+    "label": "+245",
+    "value": "GW-245",
+    "countryFlag": "GW",
+    "slug": "guinea-bissau-GW-245",
+    "countryName": "Guinea-Bissau"
+  },
+  {
+    "key": 94,
+    "label": "+592",
+    "value": "GY-592",
+    "countryFlag": "GY",
+    "slug": "guyana-GY-592",
+    "countryName": "Guyana"
+  },
+  {
+    "key": 95,
+    "label": "+509",
+    "value": "HT-509",
+    "countryFlag": "HT",
+    "slug": "haiti-HT-509",
+    "countryName": "Haiti"
+  },
+  {
+    "key": 96,
+    "label": "+672",
+    "value": "HM-672",
+    "countryFlag": "HM",
+    "slug": "heard island and mcdonald islands-HM-672",
+    "countryName": "Heard Island and McDonald Islands"
+  },
+  {
+    "key": 97,
+    "label": "+504",
+    "value": "HN-504",
+    "countryFlag": "HN",
+    "slug": "honduras-HN-504",
+    "countryName": "Honduras"
+  },
+  {
+    "key": 98,
+    "label": "+852",
+    "value": "HK-852",
+    "countryFlag": "HK",
+    "slug": "hong kong s.a.r.-HK-852",
+    "countryName": "Hong Kong S.A.R."
+  },
+  {
+    "key": 99,
+    "label": "+36",
+    "value": "HU-36",
+    "countryFlag": "HU",
+    "slug": "hungary-HU-36",
+    "countryName": "Hungary"
+  },
+  {
+    "key": 100,
+    "label": "+354",
+    "value": "IS-354",
+    "countryFlag": "IS",
+    "slug": "iceland-IS-354",
+    "countryName": "Iceland"
+  },
+  {
+    "key": 101,
+    "label": "+91",
+    "value": "IN-91",
+    "countryFlag": "IN",
+    "slug": "india-IN-91",
+    "countryName": "India"
+  },
+  {
+    "key": 102,
+    "label": "+62",
+    "value": "ID-62",
+    "countryFlag": "ID",
+    "slug": "indonesia-ID-62",
+    "countryName": "Indonesia"
+  },
+  {
+    "key": 103,
+    "label": "+98",
+    "value": "IR-98",
+    "countryFlag": "IR",
+    "slug": "iran-IR-98",
+    "countryName": "Iran"
+  },
+  {
+    "key": 104,
+    "label": "+964",
+    "value": "IQ-964",
+    "countryFlag": "IQ",
+    "slug": "iraq-IQ-964",
+    "countryName": "Iraq"
+  },
+  {
+    "key": 105,
+    "label": "+353",
+    "value": "IE-353",
+    "countryFlag": "IE",
+    "slug": "ireland-IE-353",
+    "countryName": "Ireland"
+  },
+  {
+    "key": 106,
+    "label": "+972",
+    "value": "IL-972",
+    "countryFlag": "IL",
+    "slug": "israel-IL-972",
+    "countryName": "Israel"
+  },
+  {
+    "key": 107,
+    "label": "+39",
+    "value": "IT-39",
+    "countryFlag": "IT",
+    "slug": "italy-IT-39",
+    "countryName": "Italy"
+  },
+  {
+    "key": 108,
+    "label": "+1",
+    "value": "JM-1",
+    "countryFlag": "JM",
+    "slug": "jamaica-JM-1",
+    "countryName": "Jamaica"
+  },
+  {
+    "key": 109,
+    "label": "+81",
+    "value": "JP-81",
+    "countryFlag": "JP",
+    "slug": "japan-JP-81",
+    "countryName": "Japan"
+  },
+  {
+    "key": 110,
+    "label": "+44",
+    "value": "JE-44",
+    "countryFlag": "JE",
+    "slug": "jersey-JE-44",
+    "countryName": "Jersey"
+  },
+  {
+    "key": 111,
+    "label": "+962",
+    "value": "JO-962",
+    "countryFlag": "JO",
+    "slug": "jordan-JO-962",
+    "countryName": "Jordan"
+  },
+  {
+    "key": 112,
+    "label": "+7",
+    "value": "KZ-7",
+    "countryFlag": "KZ",
+    "slug": "kazakhstan-KZ-7",
+    "countryName": "Kazakhstan"
+  },
+  {
+    "key": 113,
+    "label": "+254",
+    "value": "KE-254",
+    "countryFlag": "KE",
+    "slug": "kenya-KE-254",
+    "countryName": "Kenya"
+  },
+  {
+    "key": 114,
+    "label": "+686",
+    "value": "KI-686",
+    "countryFlag": "KI",
+    "slug": "kiribati-KI-686",
+    "countryName": "Kiribati"
+  },
+  {
+    "key": 248,
+    "label": "+383",
+    "value": "XK-383",
+    "countryFlag": "XK",
+    "slug": "kosovo-XK-383",
+    "countryName": "Kosovo"
+  },
+  {
+    "key": 117,
+    "label": "+965",
+    "value": "KW-965",
+    "countryFlag": "KW",
+    "slug": "kuwait-KW-965",
+    "countryName": "Kuwait"
+  },
+  {
+    "key": 118,
+    "label": "+996",
+    "value": "KG-996",
+    "countryFlag": "KG",
+    "slug": "kyrgyzstan-KG-996",
+    "countryName": "Kyrgyzstan"
+  },
+  {
+    "key": 119,
+    "label": "+856",
+    "value": "LA-856",
+    "countryFlag": "LA",
+    "slug": "laos-LA-856",
+    "countryName": "Laos"
+  },
+  {
+    "key": 120,
+    "label": "+371",
+    "value": "LV-371",
+    "countryFlag": "LV",
+    "slug": "latvia-LV-371",
+    "countryName": "Latvia"
+  },
+  {
+    "key": 121,
+    "label": "+961",
+    "value": "LB-961",
+    "countryFlag": "LB",
+    "slug": "lebanon-LB-961",
+    "countryName": "Lebanon"
+  },
+  {
+    "key": 122,
+    "label": "+266",
+    "value": "LS-266",
+    "countryFlag": "LS",
+    "slug": "lesotho-LS-266",
+    "countryName": "Lesotho"
+  },
+  {
+    "key": 123,
+    "label": "+231",
+    "value": "LR-231",
+    "countryFlag": "LR",
+    "slug": "liberia-LR-231",
+    "countryName": "Liberia"
+  },
+  {
+    "key": 124,
+    "label": "+218",
+    "value": "LY-218",
+    "countryFlag": "LY",
+    "slug": "libya-LY-218",
+    "countryName": "Libya"
+  },
+  {
+    "key": 125,
+    "label": "+423",
+    "value": "LI-423",
+    "countryFlag": "LI",
+    "slug": "liechtenstein-LI-423",
+    "countryName": "Liechtenstein"
+  },
+  {
+    "key": 126,
+    "label": "+370",
+    "value": "LT-370",
+    "countryFlag": "LT",
+    "slug": "lithuania-LT-370",
+    "countryName": "Lithuania"
+  },
+  {
+    "key": 127,
+    "label": "+352",
+    "value": "LU-352",
+    "countryFlag": "LU",
+    "slug": "luxembourg-LU-352",
+    "countryName": "Luxembourg"
+  },
+  {
+    "key": 128,
+    "label": "+853",
+    "value": "MO-853",
+    "countryFlag": "MO",
+    "slug": "macau s.a.r.-MO-853",
+    "countryName": "Macau S.A.R."
+  },
+  {
+    "key": 130,
+    "label": "+261",
+    "value": "MG-261",
+    "countryFlag": "MG",
+    "slug": "madagascar-MG-261",
+    "countryName": "Madagascar"
+  },
+  {
+    "key": 131,
+    "label": "+265",
+    "value": "MW-265",
+    "countryFlag": "MW",
+    "slug": "malawi-MW-265",
+    "countryName": "Malawi"
+  },
+  {
+    "key": 132,
+    "label": "+60",
+    "value": "MY-60",
+    "countryFlag": "MY",
+    "slug": "malaysia-MY-60",
+    "countryName": "Malaysia"
+  },
+  {
+    "key": 133,
+    "label": "+960",
+    "value": "MV-960",
+    "countryFlag": "MV",
+    "slug": "maldives-MV-960",
+    "countryName": "Maldives"
+  },
+  {
+    "key": 134,
+    "label": "+223",
+    "value": "ML-223",
+    "countryFlag": "ML",
+    "slug": "mali-ML-223",
+    "countryName": "Mali"
+  },
+  {
+    "key": 135,
+    "label": "+356",
+    "value": "MT-356",
+    "countryFlag": "MT",
+    "slug": "malta-MT-356",
+    "countryName": "Malta"
+  },
+  {
+    "key": 136,
+    "label": "+44",
+    "value": "IM-44",
+    "countryFlag": "IM",
+    "slug": "man (isle of)-IM-44",
+    "countryName": "Man (Isle of)"
+  },
+  {
+    "key": 137,
+    "label": "+692",
+    "value": "MH-692",
+    "countryFlag": "MH",
+    "slug": "marshall islands-MH-692",
+    "countryName": "Marshall Islands"
+  },
+  {
+    "key": 138,
+    "label": "+596",
+    "value": "MQ-596",
+    "countryFlag": "MQ",
+    "slug": "martinique-MQ-596",
+    "countryName": "Martinique"
+  },
+  {
+    "key": 139,
+    "label": "+222",
+    "value": "MR-222",
+    "countryFlag": "MR",
+    "slug": "mauritania-MR-222",
+    "countryName": "Mauritania"
+  },
+  {
+    "key": 140,
+    "label": "+230",
+    "value": "MU-230",
+    "countryFlag": "MU",
+    "slug": "mauritius-MU-230",
+    "countryName": "Mauritius"
+  },
+  {
+    "key": 141,
+    "label": "+262",
+    "value": "YT-262",
+    "countryFlag": "YT",
+    "slug": "mayotte-YT-262",
+    "countryName": "Mayotte"
+  },
+  {
+    "key": 142,
+    "label": "+52",
+    "value": "MX-52",
+    "countryFlag": "MX",
+    "slug": "mexico-MX-52",
+    "countryName": "Mexico"
+  },
+  {
+    "key": 143,
+    "label": "+691",
+    "value": "FM-691",
+    "countryFlag": "FM",
+    "slug": "micronesia-FM-691",
+    "countryName": "Micronesia"
+  },
+  {
+    "key": 144,
+    "label": "+373",
+    "value": "MD-373",
+    "countryFlag": "MD",
+    "slug": "moldova-MD-373",
+    "countryName": "Moldova"
+  },
+  {
+    "key": 145,
+    "label": "+377",
+    "value": "MC-377",
+    "countryFlag": "MC",
+    "slug": "monaco-MC-377",
+    "countryName": "Monaco"
+  },
+  {
+    "key": 146,
+    "label": "+976",
+    "value": "MN-976",
+    "countryFlag": "MN",
+    "slug": "mongolia-MN-976",
+    "countryName": "Mongolia"
+  },
+  {
+    "key": 147,
+    "label": "+382",
+    "value": "ME-382",
+    "countryFlag": "ME",
+    "slug": "montenegro-ME-382",
+    "countryName": "Montenegro"
+  },
+  {
+    "key": 148,
+    "label": "+1",
+    "value": "MS-1",
+    "countryFlag": "MS",
+    "slug": "montserrat-MS-1",
+    "countryName": "Montserrat"
+  },
+  {
+    "key": 149,
+    "label": "+212",
+    "value": "MA-212",
+    "countryFlag": "MA",
+    "slug": "morocco-MA-212",
+    "countryName": "Morocco"
+  },
+  {
+    "key": 150,
+    "label": "+258",
+    "value": "MZ-258",
+    "countryFlag": "MZ",
+    "slug": "mozambique-MZ-258",
+    "countryName": "Mozambique"
+  },
+  {
+    "key": 151,
+    "label": "+95",
+    "value": "MM-95",
+    "countryFlag": "MM",
+    "slug": "myanmar-MM-95",
+    "countryName": "Myanmar"
+  },
+  {
+    "key": 152,
+    "label": "+264",
+    "value": "NA-264",
+    "countryFlag": "NA",
+    "slug": "namibia-NA-264",
+    "countryName": "Namibia"
+  },
+  {
+    "key": 153,
+    "label": "+674",
+    "value": "NR-674",
+    "countryFlag": "NR",
+    "slug": "nauru-NR-674",
+    "countryName": "Nauru"
+  },
+  {
+    "key": 154,
+    "label": "+977",
+    "value": "NP-977",
+    "countryFlag": "NP",
+    "slug": "nepal-NP-977",
+    "countryName": "Nepal"
+  },
+  {
+    "key": 156,
+    "label": "+31",
+    "value": "NL-31",
+    "countryFlag": "NL",
+    "slug": "netherlands-NL-31",
+    "countryName": "Netherlands"
+  },
+  {
+    "key": 157,
+    "label": "+687",
+    "value": "NC-687",
+    "countryFlag": "NC",
+    "slug": "new caledonia-NC-687",
+    "countryName": "New Caledonia"
+  },
+  {
+    "key": 158,
+    "label": "+64",
+    "value": "NZ-64",
+    "countryFlag": "NZ",
+    "slug": "new zealand-NZ-64",
+    "countryName": "New Zealand"
+  },
+  {
+    "key": 159,
+    "label": "+505",
+    "value": "NI-505",
+    "countryFlag": "NI",
+    "slug": "nicaragua-NI-505",
+    "countryName": "Nicaragua"
+  },
+  {
+    "key": 160,
+    "label": "+227",
+    "value": "NE-227",
+    "countryFlag": "NE",
+    "slug": "niger-NE-227",
+    "countryName": "Niger"
+  },
+  {
+    "key": 161,
+    "label": "+234",
+    "value": "NG-234",
+    "countryFlag": "NG",
+    "slug": "nigeria-NG-234",
+    "countryName": "Nigeria"
+  },
+  {
+    "key": 162,
+    "label": "+683",
+    "value": "NU-683",
+    "countryFlag": "NU",
+    "slug": "niue-NU-683",
+    "countryName": "Niue"
+  },
+  {
+    "key": 163,
+    "label": "+672",
+    "value": "NF-672",
+    "countryFlag": "NF",
+    "slug": "norfolk island-NF-672",
+    "countryName": "Norfolk Island"
+  },
+  {
+    "key": 115,
+    "label": "+850",
+    "value": "KP-850",
+    "countryFlag": "KP",
+    "slug": "north korea-KP-850",
+    "countryName": "North Korea"
+  },
+  {
+    "key": 129,
+    "label": "+389",
+    "value": "MK-389",
+    "countryFlag": "MK",
+    "slug": "north macedonia-MK-389",
+    "countryName": "North Macedonia"
+  },
+  {
+    "key": 164,
+    "label": "+1",
+    "value": "MP-1",
+    "countryFlag": "MP",
+    "slug": "northern mariana islands-MP-1",
+    "countryName": "Northern Mariana Islands"
+  },
+  {
+    "key": 165,
+    "label": "+47",
+    "value": "NO-47",
+    "countryFlag": "NO",
+    "slug": "norway-NO-47",
+    "countryName": "Norway"
+  },
+  {
+    "key": 166,
+    "label": "+968",
+    "value": "OM-968",
+    "countryFlag": "OM",
+    "slug": "oman-OM-968",
+    "countryName": "Oman"
+  },
+  {
+    "key": 167,
+    "label": "+92",
+    "value": "PK-92",
+    "countryFlag": "PK",
+    "slug": "pakistan-PK-92",
+    "countryName": "Pakistan"
+  },
+  {
+    "key": 168,
+    "label": "+680",
+    "value": "PW-680",
+    "countryFlag": "PW",
+    "slug": "palau-PW-680",
+    "countryName": "Palau"
+  },
+  {
+    "key": 169,
+    "label": "+970",
+    "value": "PS-970",
+    "countryFlag": "PS",
+    "slug": "palestinian territory occupied-PS-970",
+    "countryName": "Palestinian Territory Occupied"
+  },
+  {
+    "key": 170,
+    "label": "+507",
+    "value": "PA-507",
+    "countryFlag": "PA",
+    "slug": "panama-PA-507",
+    "countryName": "Panama"
+  },
+  {
+    "key": 171,
+    "label": "+675",
+    "value": "PG-675",
+    "countryFlag": "PG",
+    "slug": "papua new guinea-PG-675",
+    "countryName": "Papua New Guinea"
+  },
+  {
+    "key": 172,
+    "label": "+595",
+    "value": "PY-595",
+    "countryFlag": "PY",
+    "slug": "paraguay-PY-595",
+    "countryName": "Paraguay"
+  },
+  {
+    "key": 173,
+    "label": "+51",
+    "value": "PE-51",
+    "countryFlag": "PE",
+    "slug": "peru-PE-51",
+    "countryName": "Peru"
+  },
+  {
+    "key": 174,
+    "label": "+63",
+    "value": "PH-63",
+    "countryFlag": "PH",
+    "slug": "philippines-PH-63",
+    "countryName": "Philippines"
+  },
+  {
+    "key": 175,
+    "label": "+870",
+    "value": "PN-870",
+    "countryFlag": "PN",
+    "slug": "pitcairn island-PN-870",
+    "countryName": "Pitcairn Island"
+  },
+  {
+    "key": 176,
+    "label": "+48",
+    "value": "PL-48",
+    "countryFlag": "PL",
+    "slug": "poland-PL-48",
+    "countryName": "Poland"
+  },
+  {
+    "key": 177,
+    "label": "+351",
+    "value": "PT-351",
+    "countryFlag": "PT",
+    "slug": "portugal-PT-351",
+    "countryName": "Portugal"
+  },
+  {
+    "key": 178,
+    "label": "+1",
+    "value": "PR-1",
+    "countryFlag": "PR",
+    "slug": "puerto rico-PR-1",
+    "countryName": "Puerto Rico"
+  },
+  {
+    "key": 179,
+    "label": "+974",
+    "value": "QA-974",
+    "countryFlag": "QA",
+    "slug": "qatar-QA-974",
+    "countryName": "Qatar"
+  },
+  {
+    "key": 180,
+    "label": "+262",
+    "value": "RE-262",
+    "countryFlag": "RE",
+    "slug": "reunion-RE-262",
+    "countryName": "Reunion"
+  },
+  {
+    "key": 181,
+    "label": "+40",
+    "value": "RO-40",
+    "countryFlag": "RO",
+    "slug": "romania-RO-40",
+    "countryName": "Romania"
+  },
+  {
+    "key": 182,
+    "label": "+7",
+    "value": "RU-7",
+    "countryFlag": "RU",
+    "slug": "russia-RU-7",
+    "countryName": "Russia"
+  },
+  {
+    "key": 183,
+    "label": "+250",
+    "value": "RW-250",
+    "countryFlag": "RW",
+    "slug": "rwanda-RW-250",
+    "countryName": "Rwanda"
+  },
+  {
+    "key": 184,
+    "label": "+290",
+    "value": "SH-290",
+    "countryFlag": "SH",
+    "slug": "saint helena-SH-290",
+    "countryName": "Saint Helena"
+  },
+  {
+    "key": 185,
+    "label": "+1",
+    "value": "KN-1",
+    "countryFlag": "KN",
+    "slug": "saint kitts and nevis-KN-1",
+    "countryName": "Saint Kitts and Nevis"
+  },
+  {
+    "key": 186,
+    "label": "+1",
+    "value": "LC-1",
+    "countryFlag": "LC",
+    "slug": "saint lucia-LC-1",
+    "countryName": "Saint Lucia"
+  },
+  {
+    "key": 187,
+    "label": "+508",
+    "value": "PM-508",
+    "countryFlag": "PM",
+    "slug": "saint pierre and miquelon-PM-508",
+    "countryName": "Saint Pierre and Miquelon"
+  },
+  {
+    "key": 188,
+    "label": "+1",
+    "value": "VC-1",
+    "countryFlag": "VC",
+    "slug": "saint vincent and the grenadines-VC-1",
+    "countryName": "Saint Vincent and the Grenadines"
+  },
+  {
+    "key": 189,
+    "label": "+590",
+    "value": "BL-590",
+    "countryFlag": "BL",
+    "slug": "saint-barthelemy-BL-590",
+    "countryName": "Saint-Barthelemy"
+  },
+  {
+    "key": 190,
+    "label": "+590",
+    "value": "MF-590",
+    "countryFlag": "MF",
+    "slug": "saint-martin (french part)-MF-590",
+    "countryName": "Saint-Martin (French part)"
+  },
+  {
+    "key": 191,
+    "label": "+685",
+    "value": "WS-685",
+    "countryFlag": "WS",
+    "slug": "samoa-WS-685",
+    "countryName": "Samoa"
+  },
+  {
+    "key": 192,
+    "label": "+378",
+    "value": "SM-378",
+    "countryFlag": "SM",
+    "slug": "san marino-SM-378",
+    "countryName": "San Marino"
+  },
+  {
+    "key": 193,
+    "label": "+239",
+    "value": "ST-239",
+    "countryFlag": "ST",
+    "slug": "sao tome and principe-ST-239",
+    "countryName": "Sao Tome and Principe"
+  },
+  {
+    "key": 194,
+    "label": "+966",
+    "value": "SA-966",
+    "countryFlag": "SA",
+    "slug": "saudi arabia-SA-966",
+    "countryName": "Saudi Arabia"
+  },
+  {
+    "key": 195,
+    "label": "+221",
+    "value": "SN-221",
+    "countryFlag": "SN",
+    "slug": "senegal-SN-221",
+    "countryName": "Senegal"
+  },
+  {
+    "key": 196,
+    "label": "+381",
+    "value": "RS-381",
+    "countryFlag": "RS",
+    "slug": "serbia-RS-381",
+    "countryName": "Serbia"
+  },
+  {
+    "key": 197,
+    "label": "+248",
+    "value": "SC-248",
+    "countryFlag": "SC",
+    "slug": "seychelles-SC-248",
+    "countryName": "Seychelles"
+  },
+  {
+    "key": 198,
+    "label": "+232",
+    "value": "SL-232",
+    "countryFlag": "SL",
+    "slug": "sierra leone-SL-232",
+    "countryName": "Sierra Leone"
+  },
+  {
+    "key": 199,
+    "label": "+65",
+    "value": "SG-65",
+    "countryFlag": "SG",
+    "slug": "singapore-SG-65",
+    "countryName": "Singapore"
+  },
+  {
+    "key": 250,
+    "label": "+1721",
+    "value": "SX-1721",
+    "countryFlag": "SX",
+    "slug": "sint maarten (dutch part)-SX-1721",
+    "countryName": "Sint Maarten (Dutch part)"
+  },
+  {
+    "key": 200,
+    "label": "+421",
+    "value": "SK-421",
+    "countryFlag": "SK",
+    "slug": "slovakia-SK-421",
+    "countryName": "Slovakia"
+  },
+  {
+    "key": 201,
+    "label": "+386",
+    "value": "SI-386",
+    "countryFlag": "SI",
+    "slug": "slovenia-SI-386",
+    "countryName": "Slovenia"
+  },
+  {
+    "key": 202,
+    "label": "+677",
+    "value": "SB-677",
+    "countryFlag": "SB",
+    "slug": "solomon islands-SB-677",
+    "countryName": "Solomon Islands"
+  },
+  {
+    "key": 203,
+    "label": "+252",
+    "value": "SO-252",
+    "countryFlag": "SO",
+    "slug": "somalia-SO-252",
+    "countryName": "Somalia"
+  },
+  {
+    "key": 204,
+    "label": "+27",
+    "value": "ZA-27",
+    "countryFlag": "ZA",
+    "slug": "south africa-ZA-27",
+    "countryName": "South Africa"
+  },
+  {
+    "key": 205,
+    "label": "+500",
+    "value": "GS-500",
+    "countryFlag": "GS",
+    "slug": "south georgia-GS-500",
+    "countryName": "South Georgia"
+  },
+  {
+    "key": 116,
+    "label": "+82",
+    "value": "KR-82",
+    "countryFlag": "KR",
+    "slug": "south korea-KR-82",
+    "countryName": "South Korea"
+  },
+  {
+    "key": 206,
+    "label": "+211",
+    "value": "SS-211",
+    "countryFlag": "SS",
+    "slug": "south sudan-SS-211",
+    "countryName": "South Sudan"
+  },
+  {
+    "key": 207,
+    "label": "+34",
+    "value": "ES-34",
+    "countryFlag": "ES",
+    "slug": "spain-ES-34",
+    "countryName": "Spain"
+  },
+  {
+    "key": 208,
+    "label": "+94",
+    "value": "LK-94",
+    "countryFlag": "LK",
+    "slug": "sri lanka-LK-94",
+    "countryName": "Sri Lanka"
+  },
+  {
+    "key": 209,
+    "label": "+249",
+    "value": "SD-249",
+    "countryFlag": "SD",
+    "slug": "sudan-SD-249",
+    "countryName": "Sudan"
+  },
+  {
+    "key": 210,
+    "label": "+597",
+    "value": "SR-597",
+    "countryFlag": "SR",
+    "slug": "suriname-SR-597",
+    "countryName": "Suriname"
+  },
+  {
+    "key": 211,
+    "label": "+47",
+    "value": "SJ-47",
+    "countryFlag": "SJ",
+    "slug": "svalbard and jan mayen islands-SJ-47",
+    "countryName": "Svalbard and Jan Mayen Islands"
+  },
+  {
+    "key": 213,
+    "label": "+46",
+    "value": "SE-46",
+    "countryFlag": "SE",
+    "slug": "sweden-SE-46",
+    "countryName": "Sweden"
+  },
+  {
+    "key": 214,
+    "label": "+41",
+    "value": "CH-41",
+    "countryFlag": "CH",
+    "slug": "switzerland-CH-41",
+    "countryName": "Switzerland"
+  },
+  {
+    "key": 215,
+    "label": "+963",
+    "value": "SY-963",
+    "countryFlag": "SY",
+    "slug": "syria-SY-963",
+    "countryName": "Syria"
+  },
+  {
+    "key": 216,
+    "label": "+886",
+    "value": "TW-886",
+    "countryFlag": "TW",
+    "slug": "taiwan-TW-886",
+    "countryName": "Taiwan"
+  },
+  {
+    "key": 217,
+    "label": "+992",
+    "value": "TJ-992",
+    "countryFlag": "TJ",
+    "slug": "tajikistan-TJ-992",
+    "countryName": "Tajikistan"
+  },
+  {
+    "key": 218,
+    "label": "+255",
+    "value": "TZ-255",
+    "countryFlag": "TZ",
+    "slug": "tanzania-TZ-255",
+    "countryName": "Tanzania"
+  },
+  {
+    "key": 219,
+    "label": "+66",
+    "value": "TH-66",
+    "countryFlag": "TH",
+    "slug": "thailand-TH-66",
+    "countryName": "Thailand"
+  },
+  {
+    "key": 17,
+    "label": "+1",
+    "value": "BS-1",
+    "countryFlag": "BS",
+    "slug": "the bahamas-BS-1",
+    "countryName": "The Bahamas"
+  },
+  {
+    "key": 80,
+    "label": "+220",
+    "value": "GM-220",
+    "countryFlag": "GM",
+    "slug": "the gambia -GM-220",
+    "countryName": "The Gambia "
+  },
+  {
+    "key": 63,
+    "label": "+670",
+    "value": "TL-670",
+    "countryFlag": "TL",
+    "slug": "timor-leste-TL-670",
+    "countryName": "Timor-Leste"
+  },
+  {
+    "key": 220,
+    "label": "+228",
+    "value": "TG-228",
+    "countryFlag": "TG",
+    "slug": "togo-TG-228",
+    "countryName": "Togo"
+  },
+  {
+    "key": 221,
+    "label": "+690",
+    "value": "TK-690",
+    "countryFlag": "TK",
+    "slug": "tokelau-TK-690",
+    "countryName": "Tokelau"
+  },
+  {
+    "key": 222,
+    "label": "+676",
+    "value": "TO-676",
+    "countryFlag": "TO",
+    "slug": "tonga-TO-676",
+    "countryName": "Tonga"
+  },
+  {
+    "key": 223,
+    "label": "+1",
+    "value": "TT-1",
+    "countryFlag": "TT",
+    "slug": "trinidad and tobago-TT-1",
+    "countryName": "Trinidad and Tobago"
+  },
+  {
+    "key": 224,
+    "label": "+216",
+    "value": "TN-216",
+    "countryFlag": "TN",
+    "slug": "tunisia-TN-216",
+    "countryName": "Tunisia"
+  },
+  {
+    "key": 225,
+    "label": "+90",
+    "value": "TR-90",
+    "countryFlag": "TR",
+    "slug": "turkey-TR-90",
+    "countryName": "Turkey"
+  },
+  {
+    "key": 226,
+    "label": "+993",
+    "value": "TM-993",
+    "countryFlag": "TM",
+    "slug": "turkmenistan-TM-993",
+    "countryName": "Turkmenistan"
+  },
+  {
+    "key": 227,
+    "label": "+1",
+    "value": "TC-1",
+    "countryFlag": "TC",
+    "slug": "turks and caicos islands-TC-1",
+    "countryName": "Turks and Caicos Islands"
+  },
+  {
+    "key": 228,
+    "label": "+688",
+    "value": "TV-688",
+    "countryFlag": "TV",
+    "slug": "tuvalu-TV-688",
+    "countryName": "Tuvalu"
+  },
+  {
+    "key": 229,
+    "label": "+256",
+    "value": "UG-256",
+    "countryFlag": "UG",
+    "slug": "uganda-UG-256",
+    "countryName": "Uganda"
+  },
+  {
+    "key": 230,
+    "label": "+380",
+    "value": "UA-380",
+    "countryFlag": "UA",
+    "slug": "ukraine-UA-380",
+    "countryName": "Ukraine"
+  },
+  {
+    "key": 231,
+    "label": "+971",
+    "value": "AE-971",
+    "countryFlag": "AE",
+    "slug": "united arab emirates-AE-971",
+    "countryName": "United Arab Emirates"
+  },
+  {
+    "key": 232,
+    "label": "+44",
+    "value": "GB-44",
+    "countryFlag": "GB",
+    "slug": "united kingdom-GB-44",
+    "countryName": "United Kingdom"
+  },
+  {
+    "key": 233,
+    "label": "+1",
+    "value": "US-1",
+    "countryFlag": "US",
+    "slug": "united states-US-1",
+    "countryName": "United States"
+  },
+  {
+    "key": 234,
+    "label": "+1",
+    "value": "UM-1",
+    "countryFlag": "UM",
+    "slug": "united states minor outlying islands-UM-1",
+    "countryName": "United States Minor Outlying Islands"
+  },
+  {
+    "key": 235,
+    "label": "+598",
+    "value": "UY-598",
+    "countryFlag": "UY",
+    "slug": "uruguay-UY-598",
+    "countryName": "Uruguay"
+  },
+  {
+    "key": 236,
+    "label": "+998",
+    "value": "UZ-998",
+    "countryFlag": "UZ",
+    "slug": "uzbekistan-UZ-998",
+    "countryName": "Uzbekistan"
+  },
+  {
+    "key": 237,
+    "label": "+678",
+    "value": "VU-678",
+    "countryFlag": "VU",
+    "slug": "vanuatu-VU-678",
+    "countryName": "Vanuatu"
+  },
+  {
+    "key": 238,
+    "label": "+379",
+    "value": "VA-379",
+    "countryFlag": "VA",
+    "slug": "vatican city state (holy see)-VA-379",
+    "countryName": "Vatican City State (Holy See)"
+  },
+  {
+    "key": 239,
+    "label": "+58",
+    "value": "VE-58",
+    "countryFlag": "VE",
+    "slug": "venezuela-VE-58",
+    "countryName": "Venezuela"
+  },
+  {
+    "key": 240,
+    "label": "+84",
+    "value": "VN-84",
+    "countryFlag": "VN",
+    "slug": "vietnam-VN-84",
+    "countryName": "Vietnam"
+  },
+  {
+    "key": 241,
+    "label": "+1",
+    "value": "VG-1",
+    "countryFlag": "VG",
+    "slug": "virgin islands (british)-VG-1",
+    "countryName": "Virgin Islands (British)"
+  },
+  {
+    "key": 242,
+    "label": "+1",
+    "value": "VI-1",
+    "countryFlag": "VI",
+    "slug": "virgin islands (us)-VI-1",
+    "countryName": "Virgin Islands (US)"
+  },
+  {
+    "key": 243,
+    "label": "+681",
+    "value": "WF-681",
+    "countryFlag": "WF",
+    "slug": "wallis and futuna islands-WF-681",
+    "countryName": "Wallis and Futuna Islands"
+  },
+  {
+    "key": 244,
+    "label": "+212",
+    "value": "EH-212",
+    "countryFlag": "EH",
+    "slug": "western sahara-EH-212",
+    "countryName": "Western Sahara"
+  },
+  {
+    "key": 245,
+    "label": "+967",
+    "value": "YE-967",
+    "countryFlag": "YE",
+    "slug": "yemen-YE-967",
+    "countryName": "Yemen"
+  },
+  {
+    "key": 246,
+    "label": "+260",
+    "value": "ZM-260",
+    "countryFlag": "ZM",
+    "slug": "zambia-ZM-260",
+    "countryName": "Zambia"
+  },
+  {
+    "key": 247,
+    "label": "+263",
+    "value": "ZW-263",
+    "countryFlag": "ZW",
+    "slug": "zimbabwe-ZW-263",
+    "countryName": "Zimbabwe"
+  }
+]

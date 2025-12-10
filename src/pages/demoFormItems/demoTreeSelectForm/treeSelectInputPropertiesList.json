@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "property": "name",
+    "description": "Key used to store the field value in the form state",
+    "type": [
+      "string"
+    ],
+    "default": ""
+  },
+  {
+    "id": "2",
+    "property": "label",
+    "description": "Label displayed for the form field",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": ""
+  },
+  {
+    "id": "3",
+    "property": "isMandatory",
+    "description": "Determines whether the field is required. If false, the value will be empty when the form is submitted without input",
+    "type": [
+      "boolean"
+    ],
+    "default": "true"
+  },
+  {
+    "id": "4",
+    "property": "disabled",
+    "description": "Disables the form field when set to true",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  },
+  {
+    "id": "5",
+    "property": "helper",
+    "description": "Additional helper text or validation feedback for the field. Overrides the default validation message if provided",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "6",
+    "property": "fieldStatus",
+    "description": "Validation status of the input field. Typically used together with the helper property",
+    "type": [
+      "error",
+      "warning",
+      "undefined"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "7",
+    "property": "size",
+    "description": "Specifies the size of the input field",
+    "type": [
+      "small",
+      "middle",
+      "large"
+    ],
+    "default": "middle"
+  },
+  {
+    "id": "8",
+    "property": "treeData",
+    "description": "Data source for the tree structure. Each item should include `key`, `label`, `value`, and optionally `children` to represent nested nodes",
+    "type": [
+      "{ key: string | number",
+      "label: string",
+      "value: string",
+      "children?: TreeNode[]",
+      "} []"
+    ],
+    "default": "[]"
+  },
+  {
+    "id": "9",
+    "property": "multiple",
+    "description": "Enables multiple selection mode. When true, users can select multiple nodes and checkboxes will be displayed in the tree",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  }
+]

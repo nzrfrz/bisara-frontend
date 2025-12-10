@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "property": "name",
+    "description": "Key used to store the field value in the form state",
+    "type": [
+      "string"
+    ],
+    "default": ""
+  },
+  {
+    "id": "2",
+    "property": "label",
+    "description": "Label displayed for the form field",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": ""
+  },
+  {
+    "id": "3",
+    "property": "isMandatory",
+    "description": "Determines whether the field is required. If false, the value will be empty when the form is submitted without input",
+    "type": [
+      "boolean"
+    ],
+    "default": "true"
+  },
+  {
+    "id": "4",
+    "property": "disabled",
+    "description": "Disables the form field when set to true",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  },
+  {
+    "id": "5",
+    "property": "helper",
+    "description": "Additional helper text or validation feedback for the field. Overrides the default validation message if provided",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "6",
+    "property": "fieldStatus",
+    "description": "Validation status of the input field. Typically used together with the helper property",
+    "type": [
+      "error",
+      "warning",
+      "undefined"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "7",
+    "property": "size",
+    "description": "Specifies the size of the input field",
+    "type": [
+      "small",
+      "middle",
+      "large"
+    ],
+    "default": "middle"
+  },
+  {
+    "id": "8",
+    "property": "pickerFieldType",
+    "description": "Determines whether the picker is a single-value selector or a range selector",
+    "type": [
+      "single",
+      "range"
+    ],
+    "default": "single"
+  },
+  {
+    "id": "9",
+    "property": "pickerType",
+    "description": "Specifies the type of date unit to pick (e.g., day, week, month, quarter, year)",
+    "type": [
+      "date", 
+      "week",
+      "month",
+      "quarter",
+      "year"
+    ],
+    "default": "date"
+  },
+  {
+    "id": "10",
+    "property": "disabledDate",
+    "description": "Function to disable specific dates from selection. See Ant Design docs for usage: https://ant.design/components/date-picker#date-picker-demo-disabled-date",
+    "type": [
+      "function"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "11",
+    "property": "disabledTime",
+    "description": "Function to disable specific time ranges from selection. See Ant Design docs for usage: https://ant.design/components/date-picker#date-picker-demo-disabled-date",
+    "type": [
+      "function"
+    ],
+    "default": "undefined"
+  }
+]

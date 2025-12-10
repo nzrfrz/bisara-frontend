@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "property": "isMandatory",
+    "description": "Determines whether the field is required. If false, the value will be empty when the form is submitted without input",
+    "type": [
+      "boolean"
+    ],
+    "default": "true"
+  },
+  {
+    "id": "2",
+    "property": "disabled",
+    "description": "Disables the form field when set to true",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  },
+  {
+    "id": "3",
+    "property": "helper",
+    "description": "Additional helper text or validation feedback for the field. Overrides the default validation message if provided",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "4",
+    "property": "fieldStatus",
+    "description": "Validation status of the input field. Typically used together with the helper property",
+    "type": [
+      "error",
+      "warning",
+      "undefined"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "5",
+    "property": "iconPosition",
+    "description": "Specifies the position of the email icon inside the input field",
+    "type": [
+      "end",
+      "start"
+    ],
+    "default": "end"
+  },
+  {
+    "id": "6",
+    "property": "size",
+    "description": "Specifies the size of the input field",
+    "type": [
+      "small",
+      "middle",
+      "large"
+    ],
+    "default": "middle"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "1",
+    "property": "name",
+    "description": "Key used to store the field value in the form state",
+    "type": [
+      "string"
+    ],
+    "default": ""
+  },
+  {
+    "id": "2",
+    "property": "label",
+    "description": "Label displayed for the form field",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": ""
+  },
+  {
+    "id": "3",
+    "property": "isMandatory",
+    "description": "Determines whether the field is required. If false, the value will be empty when the form is submitted without input",
+    "type": [
+      "boolean"
+    ],
+    "default": "true"
+  },
+  {
+    "id": "4",
+    "property": "disabled",
+    "description": "Disables the form field when set to true",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  },
+  {
+    "id": "5",
+    "property": "helper",
+    "description": "Additional helper text or validation feedback for the field. Overrides the default validation message if provided",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "6",
+    "property": "min",
+    "description": "Specifies the minimum selectable value of the slider",
+    "type": [
+      "number"
+    ],
+    "default": "10"
+  },
+  {
+    "id": "7",
+    "property": "max",
+    "description": "Specifies the maximum selectable value of the slider",
+    "type": [
+      "number"
+    ],
+    "default": "150"
+  },
+  {
+    "id": "8",
+    "property": "step",
+    "description": "Specifies the step interval between values. If not set, the slider moves continuously",
+    "type": [
+      "number"
+    ],
+    "default": "1"
+  },
+  {
+    "id": "9",
+    "property": "vertical",
+    "description": "If true, renders the slider vertically instead of horizontally",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  },
+  {
+    "id": "10",
+    "property": "range",
+    "description": "Enables dual-thumb mode, allowing users to select a value range instead of a single value",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  }
+]

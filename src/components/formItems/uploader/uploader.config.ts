@@ -1,0 +1,90 @@
+interface IFileFormatData {
+  alias?: string,
+  fileType?: string,
+  mimeType?: string,
+  isAllowed?: boolean,
+}
+
+interface IUploaderConfig {
+  allowedFileType?: TFileAlias,
+  multiUpload?: boolean,
+  maximumFileToUpload?: number,
+  isUseServerless?: boolean,
+  serverlessMaxFileSize?: number,
+  serverlessUploadEndpoint?: string,
+  serverlessDeleteEndpoint?: string,
+  uploadEndpoint?: string,
+  deleteEndpoint?: string,
+  fileFormatData?: IFileFormatData[],
+  allFileTypes?: undefined,
+  base64BrokenImage?: string
+}
+ 
+export const uploaderConfig: IUploaderConfig = {
+  allowedFileType: 'all',
+  multiUpload: true,
+  maximumFileToUpload: 7,
+  isUseServerless: true, /** change this if your backend deployed on vps */
+  serverlessMaxFileSize: 5, /** change this to undefined is your back end is on vps or serverless paid service */
+  serverlessUploadEndpoint: import.meta.env.VITE_SERVERLESS_UPLOAD_FILE_ENDPOINT,
+  serverlessDeleteEndpoint: import.meta.env.VITE_SERVERLESS_DELETE_FILE_ENDPOINT,
+  uploadEndpoint: import.meta.env.VITE_SERVER_UPLOAD_FILE_ENDPOINT,
+  deleteEndpoint: import.meta.env.VITE_SERVER_DELETE_FILE_ENDPOINT,
+  fileFormatData: [
+    { alias: "archive", fileType: "zip", mimeType: "application/zip", isAllowed: false },
+    { alias: "archive", fileType: "zip", mimeType: "application/x-zip-compressed", isAllowed: false },
+    { alias: "archive", fileType: "rar", mimeType: "application/vnd.rar", isAllowed: true },
+    { alias: "archive", fileType: "rar", mimeType: "application/x-compressed", isAllowed: true },
+    { alias: "archive", fileType: "7z", mimeType: "application/x-7z-compressed", isAllowed: true },
+    { alias: "archive", fileType: "tar", mimeType: "application/x-tar", isAllowed: false },
+    { alias: "archive", fileType: "gz", mimeType: "application/gzip", isAllowed: true },
+    { alias: "archive", fileType: "gz", mimeType: "application/x-gzip", isAllowed: true },
+    { alias: "archive", fileType: "bz2", mimeType: "application/x-bzip2", isAllowed: true },
+
+    { alias: "document", fileType: "pdf", mimeType: "application/pdf", isAllowed: true },
+    { alias: "document", fileType: "doc", mimeType: "application/msword", isAllowed: false },
+    { alias: "document", fileType: "docx", mimeType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document", isAllowed: false },
+    { alias: "document", fileType: "xls", mimeType: "application/vnd.ms-excel", isAllowed: true },
+    { alias: "document", fileType: "xlsx", mimeType: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", isAllowed: true },
+    { alias: "document", fileType: "ppt", mimeType: "application/vnd.ms-powerpoint", isAllowed: true },
+    { alias: "document", fileType: "pptx", mimeType: "application/vnd.openxmlformats-officedocument.presentationml.presentation", isAllowed: true },
+    { alias: "document", fileType: "txt", mimeType: "text/plain", isAllowed: false },
+    { alias: "document", fileType: "rtf", mimeType: "application/rtf", isAllowed: false },
+    { alias: "document", fileType: "csv", mimeType: "text/csv", isAllowed: true },
+    { alias: "document", fileType: "md", mimeType: "text/markdown", isAllowed: false },
+    { alias: "document", fileType: "odt", mimeType: "application/vnd.oasis.opendocument.text", isAllowed: false },
+    { alias: "document", fileType: "odt", mimeType: "application/vnd.oasis.opendocument.presentation", isAllowed: false },
+    { alias: "document", fileType: "ods", mimeType: "application/vnd.oasis.opendocument.spreadsheet", isAllowed: false },
+
+    { alias: "image", fileType: "png", mimeType: "image/png", isAllowed: true },
+    { alias: "image", fileType: "jpg", mimeType: "image/jpeg", isAllowed: true },
+    { alias: "image", fileType: "jpeg", mimeType: "image/jpeg", isAllowed: true },
+    { alias: "image", fileType: "gif", mimeType: "image/gif", isAllowed: true },
+    { alias: "image", fileType: "bmp", mimeType: "image/bmp", isAllowed: false },
+    { alias: "image", fileType: "webp", mimeType: "image/webp", isAllowed: true },
+    { alias: "image", fileType: "svg", mimeType: "image/svg+xml", isAllowed: true },
+    { alias: "image", fileType: "tiff", mimeType: "image/tiff", isAllowed: false },
+    { alias: "image", fileType: "ico", mimeType: "image/vnd.microsoft.icon", isAllowed: false },
+    
+    { alias: "audio", fileType: "mp3", mimeType: "audio/mpeg", isAllowed: true },
+    { alias: "audio", fileType: "flac", mimeType: "audio/flac", isAllowed: false },
+    { alias: "audio", fileType: "flac", mimeType: "audio/x-flac", isAllowed: false },
+    { alias: "audio", fileType: "wav", mimeType: "audio/wav", isAllowed: true },
+    { alias: "audio", fileType: "wav", mimeType: "audio/wave", isAllowed: true },
+    { alias: "audio", fileType: "ogg", mimeType: "audio/ogg", isAllowed: true },
+    { alias: "audio", fileType: "m4a", mimeType: "audio/mp4", isAllowed: false },
+    { alias: "audio", fileType: "aac", mimeType: "audio/aac", isAllowed: true },
+    { alias: "audio", fileType: "opus", mimeType: "audio/opus", isAllowed: false },
+
+    { alias: "video", fileType: "mp4", mimeType: "video/mp4", isAllowed: true },
+    { alias: "video", fileType: "mkv", mimeType: "video/x-matroska", isAllowed: true },
+    { alias: "video", fileType: "webm", mimeType: "video/webm", isAllowed: false },
+    { alias: "video", fileType: "mov", mimeType: "video/quicktime", isAllowed: false },
+    { alias: "video", fileType: "avi", mimeType: "video/x-msvideo", isAllowed: true },
+    { alias: "video", fileType: "avi", mimeType: "video/avi", isAllowed: true },
+    { alias: "video", fileType: "wmv", mimeType: "video/x-ms-wmv", isAllowed: true },
+    { alias: "video", fileType: "flv", mimeType: "video/x-flv", isAllowed: false },
+  ],
+  allFileTypes: undefined,
+  base64BrokenImage: "data:image/png;base64,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"
+};

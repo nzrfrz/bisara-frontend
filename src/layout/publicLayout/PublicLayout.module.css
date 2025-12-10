@@ -1,0 +1,55 @@
+.sider {
+  position: relative;
+  z-index: 1;
+}
+
+.siderHeaderContainer {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.siderHeaderImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.siderHeaderImageContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.siderMenu {
+  height: calc(100vh - 64px);
+  overflow-x: scroll;
+}
+
+.headerNavbar {
+  padding-inline: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  gap: 16px;
+}
+
+.layoutContentFooter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 16px;
+}
+
+@media (max-width: 767px) {
+  .sider {
+    position: absolute;
+    z-index: 9999;
+  }
+}

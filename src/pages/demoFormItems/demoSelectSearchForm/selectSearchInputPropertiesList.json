@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1",
+    "property": "name",
+    "description": "Form value key",
+    "type": [
+      "string"
+    ],
+    "default": ""
+  },
+  {
+    "id": "2",
+    "property": "label",
+    "description": "Label text for the form field",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": ""
+  },
+  {
+    "id": "3",
+    "property": "isMandatory",
+    "description": "Set the form wether required or not, if not required the value will be an empty string on submit",
+    "type": [
+      "boolean"
+    ],
+    "default": "true"
+  },
+  {
+    "id": "4",
+    "property": "disabled",
+    "description": "Set form field disabled",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  },
+  {
+    "id": "5",
+    "property": "helper",
+    "description": "Place for the additional info for the input field, and response from backend.  Will replace the rules message if set",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "6",
+    "property": "fieldStatus",
+    "description": "Validation status of the input field. Typically used together with the helper property",
+    "type": [
+      "error",
+      "warning",
+      "undefined"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "7",
+    "property": "selectOptions",
+    "description": "Data source for the select dropdown. Each item should include `key`, `label`, `value`",
+    "type": [
+      "{ key: string | number",
+      "label: string",
+      "value: string }"
+    ],
+    "default": "[]"
+  },
+  {
+    "id": "8",
+    "property": "selectMode",
+    "description": "Mode for selection",
+    "type": [
+      "single",
+      "multiple"
+    ],
+    "default": "single"
+  }
+]

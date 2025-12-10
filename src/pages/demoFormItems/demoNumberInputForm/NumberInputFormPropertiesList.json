@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "property": "name",
+    "description": "Key used to store the field value in the form state",
+    "type": [
+      "string"
+    ],
+    "default": ""
+  },
+  {
+    "id": "2",
+    "property": "label",
+    "description": "Label displayed for the form field",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": ""
+  },
+  {
+    "id": "3",
+    "property": "isMandatory",
+    "description": "Determines whether the field is required. If false, the value will be empty when the form is submitted without input",
+    "type": [
+      "boolean"
+    ],
+    "default": "true"
+  },
+  {
+    "id": "4",
+    "property": "disabled",
+    "description": "Disables the form field when set to true",
+    "type": [
+      "boolean"
+    ],
+    "default": "false"
+  },
+  {
+    "id": "5",
+    "property": "helper",
+    "description": "Additional helper text or validation feedback for the field. Overrides the default validation message if provided",
+    "type": [
+      "string",
+      "ReactNode"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "6",
+    "property": "size",
+    "description": "Specifies the size of the input field",
+    "type": [
+      "small",
+      "middle",
+      "large"
+    ],
+    "default": "middle"
+  },
+
+  {
+    "id": "7",
+    "property": "minimumNumberAllowed",
+    "description": "Specifies the minimum value allowed. If undefined, the initial value defaults to 0 and can go below 0",
+    "type": [
+      "number",
+      "undefined"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "8",
+    "property": "maximumNumberAllowed",
+    "description": "Specifies the maximum value allowed. If undefined, the value can grow without limit",
+    "type": [
+      "number",
+      "undefined"
+    ],
+    "default": "undefined"
+  },
+  {
+    "id": "9",
+    "property": "controlType",
+    "description": "Determines the style of the number input control: `basic` (input only), `seperate` (input between minus/plus buttons), or `combine` (input with adjacent increment/decrement buttons)",
+    "type": [
+      "basic",
+      "seperate",
+      "combine"
+    ],
+    "default": "basic"
+  }
+]
