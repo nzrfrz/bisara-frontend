@@ -3,6 +3,10 @@
     { 
       "source": "/api/(.*)", 
       "destination": "https://rest-bisara.vercel.app/api/$1" 
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
