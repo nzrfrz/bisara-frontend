@@ -2,7 +2,7 @@
   "rewrites": [
     { 
       "source": "/api/(.*)", 
-      "destination": "https://rest-bisara.vercel.app/api/$1" 
+      "destination": "https://rest-bhisara.vercel.app/api/$1" 
     },
     {
       "source": "/(.*)",
