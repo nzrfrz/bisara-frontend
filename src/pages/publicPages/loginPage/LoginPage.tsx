@@ -1,13 +1,25 @@
+import { useContext } from "react";
+import { Navigate } from "react-router-dom";
+import { GlobalContext } from "../../../globalContextCreate";
+
 import { Form } from "antd";
-import { FormItemBasicInput, FormItemPassword, FormItemSubmitButton, FormItemWrapper } from "../../../components";
+import { 
+  FormItemBasicInput, 
+  FormItemPassword, 
+  FormItemSubmitButton, 
+  FormItemWrapper
+} from "../../../components";
 import { useLoginPage } from "./useLoginPage";
 
 export const LoginPage = () => {
   const [form] = Form.useForm();
+  const { loginCredential } = useContext(GlobalContext);
 
   const {
     onFinishForm
-  } = useLoginPage()
+  } = useLoginPage();
+
+  if (loginCredential) return <Navigate to={"/"} replace={true} />
 
   return (
     <div

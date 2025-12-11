@@ -17,6 +17,8 @@ declare global {
     openNotification: (type: notificationType, key: string, message: string, description: string) => void,
     openMessage: (type: notificationType, content: string) => void,
     contentContainerRef: React.RefObject<HTMLDivElement> | unknown | null,
+    loginCredential: string | undefined,
+    setLoginCredential: (loginCredential: string | undefined) => void
   }
   //#endregion
 
@@ -156,6 +158,7 @@ declare global {
   interface ApiErrorResponse<T = unknown> {
     status: number,
     message: string,
+    detail: string,
     response: {
       data: {
         status: number,
@@ -163,6 +166,16 @@ declare global {
         data: T,
       }
     }
+  }
+  //#endregion
+
+  //#region API Data
+  interface UserCredential {
+    _id: string,
+    username: string,
+    email: string,
+    userRole: string,
+    accessToken: string
   }
   //#endregion
 }

@@ -1,6 +1,5 @@
 import { 
   Outlet, 
-  // Navigate, 
   useNavigate 
 } from "react-router-dom";
 
@@ -10,19 +9,17 @@ import { useAdminLayout } from "./useAdminLayout";
 import { MenuBurger } from "../menuBurger/MenuBurger";
 import { ThemeToggler } from "../themeToggler/ThemeToggler";
 
+import { CustomButton } from "../../components";
+
 import styles from './AdminLayout.module.css';
 import brandLogo from '../../assets/brand-logo-RGB.webp';
-import { CustomButton } from "../../components";
 import { HomeOutlined } from '@ant-design/icons';
 
 const { Title } = Typography;
 const { Header, Sider, Content, Footer } = Layout;
 
-const COOKIE = document.cookie;
-
 export const AdminLayout = () => {
   const navigateTo = useNavigate();
-  console.log(COOKIE);
 
   const {
     openKeys,
@@ -36,8 +33,6 @@ export const AdminLayout = () => {
   } = useAdminLayout();
 
   const displayBrandText = collapsed === false ? 'flex' : 'none';
-
-  // if (!COOKIE) return <Navigate to={"/"} replace />
 
   return (
     <Layout style={{ height: "100vh" }}>

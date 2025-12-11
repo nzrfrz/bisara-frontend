@@ -9,6 +9,8 @@ const initialGlobalContextValue: IGlobalContext = {
   openMessage: () => { },
   windowDimension: { width: 0, height: 0 },
   contentContainerRef: null,
+  loginCredential: undefined,
+  setLoginCredential: () => { }
 };
 
 export const GlobalContext = createContext<IGlobalContext>(initialGlobalContextValue);

@@ -17,7 +17,7 @@ export const useMutationHook = <T>(
   httpMethod: httpMethodTypes,
   refetchUrlPath?: string | undefined,
   refetchQueryKey?: (string | number)[] | QueryFilters | undefined,
-  onSuccessMutate?: () => void | undefined,
+  onSuccessMutate?: (data: ApiSuccessResponse<T>) => void | undefined,
   onErrorMutate?: (error: ApiErrorResponse<T>) => void | Promise<void> | undefined,
 ) => {
   const queryClient = useQueryClient();
@@ -67,12 +67,12 @@ export const useMutationHook = <T>(
     onSuccess: async (data: ApiSuccessResponse<T>) => {
       queryClient.removeQueries(refetchQueryKey as QueryFilters);
       openNotification("success", "action", "Action Success", data.message);
-      onSuccessMutate && onSuccessMutate();
+      onSuccessMutate && onSuccessMutate(data);
       refetchUrlPath !== "" && await refetchQuery();
       // console.log("\nmutation success: \n", data);
     },
     onError: async (error: ApiErrorResponse<T>) => {
-      openNotification("error", "action", "Action Error", error.response.data.message);
+      openNotification("error", "action", "Action Error", error.response?.data.message);
       onErrorMutate && onErrorMutate(error);
       console.log("mutation error: \n", error.response);
     },

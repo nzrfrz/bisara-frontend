@@ -15,6 +15,7 @@ import { privateRouteListOther } from "./routeRegistryPrivateOther";
 import { routeRegistryShared } from './routeRegistryShared';
 
 import { useFlattenRoutes } from "./useFlattenRoute";
+import { PrivateRouteWrapper } from "./routeWrapper/PrivateRouteWrapper";
 
 export const MainRoute = () => {
   const flattenedRoutes = useFlattenRoutes();
@@ -46,9 +47,11 @@ export const MainRoute = () => {
         {publicRouteList}
       </Route>
 
-      <Route path="/" element={<AdminLayout />} >
-        <Route path="/dashboard" element={<Navigate to={"/dashboard"} replace />} />
-        {privateRouteList}
+      <Route path="/" element={<PrivateRouteWrapper />}>
+        <Route path="/" element={<AdminLayout />} >
+          <Route path="/dashboard" element={<Navigate to={"/dashboard"} replace />} />
+          {privateRouteList}
+        </Route>
       </Route>
 
       <Route path="/" element={<SharedLayout />} >

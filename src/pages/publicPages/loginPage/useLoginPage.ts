@@ -1,12 +1,18 @@
+import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { useMutationHook } from "../../../_utils";
+
+import { GlobalContext } from "../../../globalContextCreate";
+import { useMutationHook, setSecureItem } from "../../../_utils";
 
 export const useLoginPage = () => {
-  const navigateTo = useNavigate()
+  const navigateTo = useNavigate();
+  const { setLoginCredential } = useContext(GlobalContext);
 
-  const onSuccessMutate = () => {
-    navigateTo('/', {replace: true});
-    console.log("Login Successfully");
+  const onSuccessMutate = (data: ApiSuccessResponse<UserCredential>) => {
+    const responseData = data.data;
+    setSecureItem(responseData as any);
+    setLoginCredential(JSON.stringify(responseData));
+    navigateTo('/');
   };
 
   const onErrorMutate = async (error: ApiErrorResponse) => {
@@ -15,7 +21,7 @@ export const useLoginPage = () => {
 
   const mutateAction = useMutationHook(
     'user/login/',
-    'private',
+    'public',
     'patch',
     '',
     ['userCredential'],

@@ -1,4 +1,4 @@
-import { Navigate, Outlet, useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 import { 
   Layout, 
@@ -6,12 +6,7 @@ import {
 
 const { Content } = Layout;
 
-const COOKIE = document.cookie;
-
 export const SharedLayout = () => {
-  const location = useLocation();
-
-  if (location.pathname === '/login' && COOKIE) return <Navigate to={"/"} replace />
   
   return (
     <Layout style={{ height: "100vh" }}>

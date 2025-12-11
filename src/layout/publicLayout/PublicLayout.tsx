@@ -1,11 +1,13 @@
-import { useMemo } from "react";
+import { 
+  useContext, 
+  useMemo,
+} from "react";
 import { useQueryHook } from "../../_utils";
 import { Outlet, useNavigate } from "react-router-dom";
 
 import {
   Layout,
   Avatar,
-  Spin
 } from "antd";
 
 import { NavbarMenu } from "./navbarMenu/NavbarMenu";
@@ -16,24 +18,23 @@ import { ThemeToggler } from "../themeToggler/ThemeToggler";
 
 import styles from './PublicLayout.module.css';
 import defaultAvatar from '../../assets/default-profile-pic.png'
+import { GlobalContext } from "../../globalContextCreate";
 
 const { Header, Content, Footer } = Layout;
 
 export const PublicLayout = () => {
   const navigateTo = useNavigate();
+  const { loginCredential } = useContext(GlobalContext);
 
   const me = useQueryHook(
     true,
     'user/me',
     ['myInfo'],
     1440
-  );
-  // console.log(me.data?.data?.email); // to fetch user info
-  // console.log("user info: \d", me.isLoading)
+  );  
 
   const credentialButton = useMemo(() => {
-    if (me.isLoading === true) return <Spin size="default" />
-    if (!me.data) return <CustomButton children="LOGIN" size="large" colorType="warning" onClick={() => { navigateTo('/login') }} />
+    if (!loginCredential) return <CustomButton children="LOGIN" size="large" colorType="warning" onClick={() => { navigateTo('/login') }} />
     else return (
       <CustomButton
         colorType="default"
