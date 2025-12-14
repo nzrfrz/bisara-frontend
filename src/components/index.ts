@@ -1,4 +1,5 @@
 export * from './CustomButton';
+export * from './SearchInput';
 
 export * from './formItems/FormItemWrapper';
 export * from './formItems/FormItemBasicInput';

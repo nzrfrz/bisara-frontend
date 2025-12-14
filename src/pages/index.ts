@@ -1,6 +1,6 @@
 // region Public Pages
 export * from './publicPages/homePage/HomePage'
-export * from './publicPages/dictionaryPage/DictionaryPage'
+export * from './publicPages/dictionaryPage/PublicDictionaryPage'
 export * from './publicPages/aboutUsPage/AboutUsPage'
 export * from './publicPages/supportPage/SupportUsPage'
 export * from './publicPages/contactPage/ContactPage'

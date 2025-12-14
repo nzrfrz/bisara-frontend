@@ -16,6 +16,7 @@
     "antd-img-crop": "^4.25.0",
     "axios": "^1.12.2",
     "dayjs": "^1.11.15",
+    "lodash.debounce": "^4.0.8",
     "prism-react-renderer": "^2.4.1",
     "react": "^19.1.1",
     "react-country-flag": "^3.1.0",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@eslint/js": "^9.33.0",
     "@tanstack/eslint-plugin-query": "^5.91.2",
+    "@types/lodash.debounce": "^4.0.9",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",

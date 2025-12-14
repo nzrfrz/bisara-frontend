@@ -23,7 +23,6 @@ privateRequest.interceptors.request.use(
       const getItem = getSecureItem() as UserCredential
       const token = getItem?.accessToken;
       // const token = JSON.parse(getItem as string).accessToken
-      console.log("axios instance: \n", getItem?.accessToken);
       
       if (token && config.headers) config.headers.Authorization = `Bearer ${token}`
     }
