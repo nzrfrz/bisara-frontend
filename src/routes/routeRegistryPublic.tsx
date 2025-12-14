@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 
 import {
   HomePage,
-  DictionaryPage,
   AboutUsPage,
   SupportUsPage,
   ContactPage,
+  PublicDictionaryPage,
 } from "../pages";
 
 export const routeRegistryPublic: IPageRoute[] = [
@@ -28,7 +28,7 @@ export const routeRegistryPublic: IPageRoute[] = [
     title: 'Kamus',
     label: <Link to='/kamus'></Link>,
     path: '/kamus',
-    element: <DictionaryPage />,
+    element: <PublicDictionaryPage />,
     icon: null,
     children: undefined,
   },

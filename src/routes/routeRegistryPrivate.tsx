@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 
 import {
   Dashboard,
-  DictionaryPage,
   TranslatePage,
   AddWordsPage,
-  MinigamesPage
+  MinigamesPage,
+  DictionaryPrivatePage
 } from "../pages";
 
 import {
@@ -47,7 +47,7 @@ export const sidebarRoutes: IPageRoute[] = [
     title: 'Kamus',
     label: <Link to='/kamus-pv'>Kamus</Link>,
     path: '/kamus-pv',
-    element: <DictionaryPage />,
+    element: <DictionaryPrivatePage />,
     icon: <LuBookOpen />,
     children: undefined,
   },

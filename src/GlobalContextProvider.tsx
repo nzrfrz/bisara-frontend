@@ -15,7 +15,6 @@ export const GlobalContextProvider: React.FC<{ children: React.ReactNode }> = ({
   const [api, contextHolder] = notification.useNotification();
   const [messageApi, messageContextHolder] = message.useMessage();
   const [loginCredential, setLoginCredential] = useState<string | undefined>(undefined);
-  console.log('login credential: \n', loginCredential);
 
   const [windowDimension, setWindowDimension] = useState<windowDimensionData>({
     width: window.innerWidth,

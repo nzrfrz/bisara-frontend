@@ -1,7 +1,9 @@
 import type { MenuItemType } from "antd/es/menu/interface";
 import type { SizeType } from "antd/es/config-provider/SizeContext";
 import type { TooltipProps } from "antd/es/tooltip";
-import type { FormInstance } from "antd";
+import type { FormInstance, RadioChangeEvent } from "antd";
+import type { CheckboxGroupProps } from "antd/es/checkbox";
+import type { UseQueryResult } from "@tanstack/react-query";
 
 declare global {
   //#region Global Context
@@ -19,6 +21,24 @@ declare global {
     contentContainerRef: React.RefObject<HTMLDivElement> | unknown | null,
     loginCredential: string | undefined,
     setLoginCredential: (loginCredential: string | undefined) => void
+  }
+  //#endregion
+
+  //#region Page Context
+  interface IPublicDictionaryContext {
+    page: number,
+    setPage: (page: number) => void,
+    limitPerPage: number,
+    setLimitPerPage: (limitPerPage: number) => void,
+    searchValue: string | undefined,
+    setSearchValue: (searchValue: string) => void,
+    corpusStatus: string, 
+    setCorpusStatus: (corpusStatus: string) => void,
+    corpusType: string, 
+    setCorpusType: (corpusType: string) => void,
+    corpusListOptions: CheckboxGroupProps<string>['options'],
+    onChangeCorpus: ({ target: { value } }: RadioChangeEvent) => void,
+    corpusList: UseQueryResult<ApiSuccessResponse<{ meta: PaginationProps; itemList: IDictionaryData[] }>> | undefined;
   }
   //#endregion
 
@@ -146,6 +166,7 @@ declare global {
     page: number,
     limit: number,
     totalPage: number,
+    totalItem: number,
   }
 
   interface ApiSuccessResponse<T = unknown> {
@@ -176,6 +197,16 @@ declare global {
     email: string,
     userRole: string,
     accessToken: string
+  }
+
+  interface IDictionaryData {
+    _id: string,
+    indonesia: string,
+    komering: string,
+    lampung: string[] | string | any,
+    status: string,
+    createdAt: string,
+    updatedAt: string
   }
   //#endregion
 }
