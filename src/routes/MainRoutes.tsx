@@ -49,7 +49,7 @@ export const MainRoute = () => {
 
       <Route path="/" element={<PrivateRouteWrapper />}>
         <Route path="/" element={<AdminLayout />} >
-          <Route path="/dashboard" element={<Navigate to={"/dashboard"} replace />} />
+          {/* <Route path="/dashboard" element={<Navigate to={"/dashboard"} replace />} /> */}
           {privateRouteList}
         </Route>
       </Route>

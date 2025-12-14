@@ -2,9 +2,10 @@ import { useContext } from "react";
 
 import { Table, type TableProps } from "antd";
 import { PublicDictContext } from "./publicDictionaryContext/publicDictContextCreate";
+import { toTitleCase } from "../../../modules";
 
 export const PublicDictionaryTableData = () => {
-  const { corpusList } = useContext(PublicDictContext);
+  const { corpusList, corpusType } = useContext(PublicDictContext);
 
   const columns: TableProps<IDictionaryData>["columns"] = [
     {
@@ -22,8 +23,8 @@ export const PublicDictionaryTableData = () => {
       )
     },
     {
-      title: "Lampung",
-      key: 'lampung',
+      title: toTitleCase(corpusType),
+      key: corpusType,
       render: (_, record) => (
         <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: 16 }}>
           <span>{record.lampung.join(', ')}</span>

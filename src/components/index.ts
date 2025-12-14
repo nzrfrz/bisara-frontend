@@ -18,3 +18,4 @@ export * from './formItems/dateTimePicker/FormItemDateTimePicker';
 export * from './formItems/slider/FormItemSlider';
 export * from './formItems/uploader/FormItemUploadFile';
 export * from './formItems/FormItemPassword';
+export * from './formItems/FormItemTextArea';

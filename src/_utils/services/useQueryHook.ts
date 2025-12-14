@@ -24,7 +24,7 @@ export const useQueryHook = <T>(
     staleTime: staleTime && staleTime * 60 * 1000,
     placeholderData: keepPreviousData,
     retry: (_, error) => {
-      console.log("error query hook: \n", error);
+      // console.log("error query hook: \n", error);
       // Retry on failure unless it's a 401 (unauthorized) error
       return error.status !== 401 && error.status !== 404;
     },

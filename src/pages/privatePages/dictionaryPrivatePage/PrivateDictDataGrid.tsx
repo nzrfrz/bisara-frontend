@@ -1,15 +1,16 @@
-import { useContext } from 'react';
-import { PublicDictContext } from './publicDictionaryContext/publicDictContextCreate';
+import { useContext } from "react";
+import { PrivateDictContext } from "./privateDictContext/privateDictContextCreate";
 
-import { Pagination, Radio } from 'antd';
-import { PublicDictionaryTableData } from './PublicDictionaryTableData';
+import { PrivateDictTableData } from "./PrivateDictTableData";
 
-import { SearchInput } from '../../../components';
-import { useDebounce } from '../../../_utils';
+import { SearchInput } from "../../../components";
+import { useDebounce } from "../../../_utils";
 
-import styles from './PublicDictionary.module.css';
+import { Pagination, Radio } from "antd";
 
-export const PublicDictDataGrid = () => {
+import styles from './PrivateDictPage.module.css';
+
+export const PrivateDictDataGrid = () => {
   const {
     page, setPage,
     setLimitPerPage,
@@ -18,12 +19,12 @@ export const PublicDictDataGrid = () => {
     corpusType,
     corpusList,
     setSearchValue
-  } = useContext(PublicDictContext);
+  } = useContext(PrivateDictContext);
 
   const debounceSave = useDebounce((nextValue) => {
-    setPage(1);
-    setSearchValue && setSearchValue(nextValue);
-  }, 700);
+      setPage(1);
+      setSearchValue && setSearchValue(nextValue);
+    }, 700);
 
   return (
     <div className={styles.container} >
@@ -47,7 +48,7 @@ export const PublicDictDataGrid = () => {
             />
           </div>
         </div>
-        <PublicDictionaryTableData />
+        <PrivateDictTableData />
         <Pagination
           current={page}
           showQuickJumper={true}
