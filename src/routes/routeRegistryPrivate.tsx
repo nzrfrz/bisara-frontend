@@ -10,7 +10,6 @@ import {
   TranslatePage,
   AddWordsPage,
   MinigamesPage,
-  DictionaryPrivatePage
 } from "../pages";
 
 import {
@@ -22,6 +21,7 @@ import {
   BsDatabaseAdd,
 } from "react-icons/bs";
 import { LuBookOpen } from "react-icons/lu";
+import { PrivateDictPage } from "../pages/privatePages/dictionaryPrivatePage/PrivateDictPage";
 
 export const sidebarRoutes: IPageRoute[] = [
   {
@@ -45,17 +45,17 @@ export const sidebarRoutes: IPageRoute[] = [
   {
     key: 'kamuspv',
     title: 'Kamus',
-    label: <Link to='/kamus-pv'>Kamus</Link>,
-    path: '/kamus-pv',
-    element: <DictionaryPrivatePage />,
+    label: <Link to='/kamus-internal'>Kamus</Link>,
+    path: '/kamus-internal',
+    element: <PrivateDictPage />,
     icon: <LuBookOpen />,
     children: undefined,
   },
   {
     key: 'addWords',
-    title: 'Add Words',
-    label: <Link to='/add-words'>Add Words</Link>,
-    path: '/add-words',
+    title: 'Tambah Kata',
+    label: <Link to='/tambah-kata'>Tambah Kata</Link>,
+    path: '/tambah-kata',
     element: <AddWordsPage />,
     icon: <BsDatabaseAdd />,
     children: undefined,

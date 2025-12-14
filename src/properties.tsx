@@ -40,6 +40,28 @@ declare global {
     onChangeCorpus: ({ target: { value } }: RadioChangeEvent) => void,
     corpusList: UseQueryResult<ApiSuccessResponse<{ meta: PaginationProps; itemList: IDictionaryData[] }>> | undefined;
   }
+
+  interface IPrivateDictionaryContext {
+    form?: FormInstance,
+    page: number,
+    setPage: (page: number) => void,
+    limitPerPage: number,
+    setLimitPerPage: (limitPerPage: number) => void,
+    searchValue: string | undefined,
+    setSearchValue: (searchValue: string) => void,
+    corpusStatus: string, 
+    setCorpusStatus: (corpusStatus: string) => void,
+    corpusType: TCorpusType | string, 
+    setCorpusType: (corpusType: TCorpusType | string) => void,
+    corpusListOptions: CheckboxGroupProps<string>['options'],
+    onChangeCorpus: ({ target: { value } }: RadioChangeEvent) => void,
+    corpusList: UseQueryResult<ApiSuccessResponse<{ meta: PaginationProps; itemList: IDictionaryData[] }>> | undefined | any;
+    dictDetailModalOpen?: boolean,
+    setDictDetailModalOpen?: (dictDetailModalOpen: boolean) => void,
+    selectedCorpus?: IDictionaryData,
+    setSelectedCorpus?: (selectedCorpus: IDictionaryData) => void,
+    onFinishForm?: (values: IDictionaryData | any) => void
+  }
   //#endregion
 
   //#region Route
@@ -191,6 +213,8 @@ declare global {
   //#endregion
 
   //#region API Data
+  type TCorpusType = 'indonesia' | 'lampung' | 'komering'
+
   interface UserCredential {
     _id: string,
     username: string,
@@ -202,7 +226,7 @@ declare global {
   interface IDictionaryData {
     _id: string,
     indonesia: string,
-    komering: string,
+    komering: string[] | string | any,
     lampung: string[] | string | any,
     status: string,
     createdAt: string,

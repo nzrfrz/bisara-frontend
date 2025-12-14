@@ -1,6 +1,5 @@
 import { useMemo } from "react";
 import {
-  Navigate,
   Route,
   Routes,
 } from "react-router-dom";
@@ -49,7 +48,6 @@ export const MainRoute = () => {
 
       <Route path="/" element={<PrivateRouteWrapper />}>
         <Route path="/" element={<AdminLayout />} >
-          <Route path="/dashboard" element={<Navigate to={"/dashboard"} replace />} />
           {privateRouteList}
         </Route>
       </Route>

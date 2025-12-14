@@ -1,14 +1,13 @@
 // region Public Pages
 export * from './publicPages/homePage/HomePage'
-export * from './publicPages/dictionaryPage/PublicDictionaryPage'
 export * from './publicPages/aboutUsPage/AboutUsPage'
 export * from './publicPages/supportPage/SupportUsPage'
 export * from './publicPages/contactPage/ContactPage'
 export * from './publicPages/loginPage/LoginPage'
+export * from './publicPages/dictionaryPage/PublicDictionaryPage'
 
 // region Private Pages
 export * from './privatePages/translatePage/TranslatePage'
-export * from './privatePages/dictionaryPrivatePage/DictionaryPrivatePage'
 export * from './privatePages/addWordsPage/AddWordsPage'
 export * from './privatePages/modulePage/ModulePage'
 export * from './privatePages/miniGames/MiniGamesPage'
