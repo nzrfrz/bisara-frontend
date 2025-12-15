@@ -1,25 +1,15 @@
-import comingSoonImg from '../../../assets/coming-soon-illustration.png';
+import comingSoonImg from "../../../assets/coming-soon.png";
 
 export const AboutUsPage = () => {
   return (
-    <div
-      style={{
-        width: '100%',
-        height: '100%',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }}
-    >
-      <div
-        style={{
-          width: 600,
-          height: 'auto',
-          objectFit: 'cover',
-        }}
-      >
-        {/* <img src={comingSoonImg} width="100%" height="100%" /> */}
-      </div>
+    <div style={{ textAlign: "center", padding: 40 }}>
+      <img
+        src={comingSoonImg}
+        alt="Coming Soon"
+        style={{ maxWidth: 400, width: "100%" }}
+      />
+      <h2>About Us</h2>
+      <p>Fitur ini sedang dalam pengembangan</p>
     </div>
   );
 };
