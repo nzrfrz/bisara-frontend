@@ -1,4 +1,4 @@
-import comingSoonImg from "../../../assets/coming-soon.png";
+import comingSoonImg from "../../../assets/coming-soon-illustration.png";
 
 export const AboutUsPage = () => {
   return (
