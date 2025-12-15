@@ -25,11 +25,14 @@ export const PublicDictionaryTableData = () => {
     {
       title: toTitleCase(corpusType),
       key: corpusType,
-      render: (_, record) => (
-        <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: 16 }}>
-          <span>{record.lampung.join(', ')}</span>
-        </div>
-      )
+      render: (_, record) => {
+        const value = (record as any)[corpusType];
+        return (
+          <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: 16 }}>
+            <span>{value?.join(', ')}</span>
+          </div>
+        )
+      }
     }
   ];
 

@@ -53,7 +53,7 @@ export const PublicDictDataGrid = () => {
           showQuickJumper={true}
           showSizeChanger={true}
           disabled={corpusList?.isFetching as boolean}
-          total={corpusList?.data && corpusList?.data.data.meta.totalPage}
+          total={corpusList?.data && corpusList?.data.data.meta.totalItem}
           onChange={async (currentPage) => setPage && setPage(currentPage)}
           style={{ display: "flex", justifyContent: "flex-end", alignItems: "center" }}
           onShowSizeChange={(_, pageSize) => setLimitPerPage && setLimitPerPage(pageSize)}
